@@ -1,0 +1,82 @@
+
+.header {
+  height:15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #0f3d2e; 
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  height: 70vh;
+  background-color: #e8f5e9; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #0f3d2e;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #0f3d2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #145a3a;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:10px;
+  align-items: center;
+  height:15vh;
+  background-color: #0f3d2e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
