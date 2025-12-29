@@ -1,12 +1,18 @@
+/* BRAND COLORS */
+:root {
+  --primary-green: #0b3d2e;
+  --light-green: #e6f2ef;
+  --text-dark: #1f2933;
+}
 
+/* Header */
 .header {
   height:15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  background-color: #0f3d2e; 
-  color: white;
+  padding: 16px 40px;
+  background-color: var(--primary-green);
 }
 
 .logo-container {
@@ -16,24 +22,31 @@
 }
 
 .logo {
-  height: 40px;
+  height: 38px;
+}
+
+.logo-container h2 {
+  font-family: "League Spartan", sans-serif;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .nav a {
-  margin-left: 20px;
+  margin-left: 24px;
   text-decoration: none;
   color: white;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  opacity: 0.85;
 }
 
-
+/* Hero Section */
 .hero {
   height: 70vh;
-  background-color: #e8f5e9; 
+  background-color: var(--light-green);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,40 +56,40 @@
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  color: #0f3d2e;
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.6rem;
+  color: var(--primary-green);
 }
 
 .hero p {
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--text-dark);
+  max-width: 520px;
 }
 
 .hero-btn {
-  margin-top: 20px;
-  padding: 12px 25px;
-  background-color: #0f3d2e;
+  margin-top: 24px;
+  padding: 12px 28px;
+  background-color: var(--primary-green);
   color: white;
   border: none;
   border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .hero-btn:hover {
-  background-color: #145a3a;
+  opacity: 0.9;
 }
 
-
+/* Footer */
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap:10px;
-  align-items: center;
   height:15vh;
-  background-color: #0f3d2e;
+  background-color: var(--primary-green);
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 14px;
+  font-size: 0.9rem;
 }
